@@ -42,4 +42,4 @@ function simpleInterest(principal,rate,time){
 intereast = (principal * rate * time)/100
 console.log("Simple interest is", interest)
 }
-simpleInterest(5000,5,8)
+simpleInterest(5000, 5, 8)
