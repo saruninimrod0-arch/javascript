@@ -23,10 +23,9 @@ CircleArea(pi, 28)
 
 console.log("==================")
 // Come up with your own example of an arrow function that utilises 3 parameters
-const volume =(length, width,height)=>{
-    let vol = length * width * height;
-    console.log("The volume of the rectangular prism is: ", area)
+const compoundInterest =(principal, rate, time)=>{
+    let Interest = (principal* rate * time)/100
+    console.log("The compound interest is: ",Interest)
 }
-volume =(length, 3);
-volume =(length, 4);
-volume =(length, 5)
+compoundInterest (26000,6,7);
+compoundInterest (4500,8,3);
